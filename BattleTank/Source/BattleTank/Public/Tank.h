@@ -55,5 +55,5 @@ private:
 
 
 
-	double LastFireTime = 0;
+	float LastFireTime = 0;
 };

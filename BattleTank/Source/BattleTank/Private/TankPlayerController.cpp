@@ -26,6 +26,12 @@ void ATankPlayerController::Tick(float DeltaTime)
 	AimTowardsCrosshair();
 }
 
+
+//void ATankPlayerController::Fire()
+//{
+//	UE_LOG(LogTemp, Warning, TEXT("Fire"));
+//}
+
 ATank* ATankPlayerController::GetControlledTank() const
 {
 	return Cast<ATank>(GetPawn());

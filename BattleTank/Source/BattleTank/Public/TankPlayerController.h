@@ -12,7 +12,11 @@ UCLASS()
 class BATTLETANK_API ATankPlayerController : public APlayerController
 {
 	GENERATED_BODY()
-	
+
+public:
+	//UFUNCTION(BlueprintCallable, Category = Play)
+	//void Fire();
+
 private:
 	ATank* GetControlledTank() const;
 	

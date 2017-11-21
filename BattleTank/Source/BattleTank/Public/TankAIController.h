@@ -21,4 +21,9 @@ private:
 	ATank* GetControlledTank() const;
 
 	ATank* GetPlayerTank() const;
+
+	ATank* PlayerTank = nullptr;
+
+	ATank* ControlledTank = nullptr;
+
 };
